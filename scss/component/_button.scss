@@ -1,0 +1,14 @@
+// Compare Plans // 
+
+.compare-plans {
+    @include button;
+}
+
+#try-for-free {
+    @include button;
+    width: 75%;
+    background: $main;
+    color: white;
+    margin: 10% auto;
+
+}

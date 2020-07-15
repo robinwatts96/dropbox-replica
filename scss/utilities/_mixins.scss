@@ -1,0 +1,19 @@
+@mixin button {
+    width: 27vh;
+    height: 7vh;
+    font-size: 0.85em;
+    border: $border-thick;
+    margin-right: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 82%;
+    border: $border-thick;
+}
