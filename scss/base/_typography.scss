@@ -3,3 +3,32 @@
 * {
     font-family: 'Epilogue', sans-serif;
 }
+
+// Headings // 
+
+h1 {
+    margin: 30vh 6vh 1em 6vh; 
+    font-size: 2.2em;
+ }
+ 
+ h3 {
+     font-size: 1.75em;
+     margin: 1em;
+ }
+ 
+ // P // 
+ 
+ #intro-text {
+     margin: 0vh 6vh 1em 6vh; 
+     line-height: 1.5em;
+ }
+ 
+ #db-for-teams-p,
+ #db-for-individuals-p {
+     
+     color: $box-font;
+     width: 80%;
+     line-height: 1.5em;
+     font-size: 1.1em;
+     margin: 0 auto;
+ }

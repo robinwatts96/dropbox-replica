@@ -4,7 +4,8 @@
     @include button;
 }
 
-#try-for-free {
+#try-for-free,
+#choose-your-plan {
     @include button;
     width: 75%;
     background: $main;

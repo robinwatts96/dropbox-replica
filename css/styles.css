@@ -376,6 +376,34 @@ template {
   font-family: 'Epilogue', sans-serif;
 }
 
+/* line 9, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/base/_typography.scss */
+h1 {
+  margin: 30vh 6vh 1em 6vh;
+  font-size: 2.2em;
+}
+
+/* line 14, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/base/_typography.scss */
+h3 {
+  font-size: 1.75em;
+  margin: 1em;
+}
+
+/* line 21, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/base/_typography.scss */
+#intro-text {
+  margin: 0vh 6vh 1em 6vh;
+  line-height: 1.5em;
+}
+
+/* line 26, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/base/_typography.scss */
+#db-for-teams-p,
+#db-for-individuals-p {
+  color: #6b7985;
+  width: 80%;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  margin: 0 auto;
+}
+
 /* line 3, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_button.scss */
 .compare-plans {
   width: 27vh;
@@ -389,7 +417,8 @@ template {
 }
 
 /* line 7, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_button.scss */
-#try-for-free {
+#try-for-free,
+#choose-your-plan {
   width: 27vh;
   height: 7vh;
   font-size: 0.85em;
@@ -404,39 +433,34 @@ template {
   margin: 10% auto;
 }
 
-/* line 3, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_grid.scss */
-.db-for-teams {
+/* line 4, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_grid.scss */
+.db-for-teams,
+.db-for-individuals {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 82%;
+  height: 100%;
   border: 1px solid #d4d4d4;
-  margin: 0 auto;
+  margin: 0 auto 3em auto;
 }
 
-/* line 10, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_grid.scss */
-h1 {
-  margin: 30vh 6vh 1em 6vh;
-  font-size: 2.2em;
+@media (min-width: 768px) {
+  /* line 4, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_grid.scss */
+  .db-for-teams,
+  .db-for-individuals {
+    width: 40%;
+    margin-top: 3em;
+  }
 }
 
-/* line 15, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_grid.scss */
-h3 {
-  font-size: 1.75em;
-  margin: 1em;
-}
-
-/* line 22, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_grid.scss */
-#intro-text {
-  margin: 0vh 6vh 1em 6vh;
-  line-height: 1.5em;
-}
-
-/* line 27, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_grid.scss */
-#db-for-teams-p {
-  margin: 0 0 0 1.75em;
-  color: #6b7985;
+@media (min-width: 768px) {
+  /* line 14, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_grid.scss */
+  .plan-container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 /* line 3, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_images.scss */
@@ -447,7 +471,8 @@ h3 {
 }
 
 /* line 10, ../../../OneDrive/Documents/GitHub/dropbox-replica/scss/component/_images.scss */
-#db-for-teams {
+#db-for-teams,
+#db-for-individuals {
   width: 100%;
   height: 100%;
 }
